@@ -210,3 +210,5 @@ docker push <docker_id>/azurefunctionsimage:v1.0.0
 
 
 
+
+
