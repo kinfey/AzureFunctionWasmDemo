@@ -6,19 +6,24 @@ Hey Guy ，这是一个 WasmEdge 在 Azure Function 上运行的 Hello World 。
 
 ## **准备工作**
 
-1. Azure 账号免费申请 
+1. Azure 账号免费申请 https://azure.com/free 
 
-2. Azure 学生账号申请
+2. Azure 学生账号申请 https://aka.ms/studentgetazure
 
-3. 申请 GitHub Education Package 
+3. 申请 GitHub Education Package https://education.github.com/pack 
 
-4. 注册 GitHub 
+4. 注册 GitHub https://github.com/signup 
 
-5. 注册一个 Docker Hub
+5. 注册一个 Docker Hub https://hub.docker.com/ 
 
 ## **环境配置**
 
 1. 你需要有一个 GitHub 账号， 从 2022 年 11 月开始 ，GitHub 开始提供每月 60 小时的免费使用
+
+
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/02.png">
+</div>
 
 2. 直接选择改 Repo 上的 Code ，进入该项目的环境
 
