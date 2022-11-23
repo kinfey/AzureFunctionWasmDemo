@@ -1,5 +1,7 @@
 # **WasmEdge in Azure Function - : Hello World**
-
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/01.png">
+</div>
 Hey Guy ，这是一个 WasmEdge 在 Azure Function 上运行的 Hello World 。 希望能给应用 WasmEdge 时提供一些场景案例。请 Fork 这个项目然后在你的 Github Codespace 上运行
 
 ## **准备工作**
@@ -135,6 +137,7 @@ docker push <docker_id>/azurefunctionsimage:v1.0.0
 4. 创建成功后，去 Container Deployment ， 设置好你对应的 Docker Hub 和 container 标识，按保存
 
 5. 稍等片刻完成，在 Codespace 上打开 Thunder Client 验证
+
 
 
 
