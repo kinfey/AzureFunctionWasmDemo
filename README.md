@@ -1,7 +1,9 @@
 # **WasmEdge in Azure Function - : Hello World**
+
 <div style="text-align:left; width:100%">
 <img src="./imgs/01/01.png">
 </div>
+
 Hey Guy ，这是一个 WasmEdge 在 Azure Function 上运行的 Hello World 。 希望能给应用 WasmEdge 时提供一些场景案例。请 Fork 这个项目然后在你的 Github Codespace 上运行
 
 ## **准备工作**
@@ -21,13 +23,22 @@ Hey Guy ，这是一个 WasmEdge 在 Azure Function 上运行的 Hello World 。
 1. 你需要有一个 GitHub 账号， 从 2022 年 11 月开始 ，GitHub 开始提供每月 60 小时的免费使用
 
 
-<div style="text-align:left; width:100%">
+<div style="text-align:center; width:50%">
 <img src="./imgs/01/02.png">
 </div>
 
-2. 直接选择改 Repo 上的 Code ，进入该项目的环境
+2. 直接选择改 Repo 上的 Code ，进入该项目的环境 Codespace 环境
+
+
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/03.png">
+</div>
 
 3. 安装好相关插件 ThunderClient 以及 Azure CLI 
+
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/04.png">
+</div>
 
 4. 在终端安装好 Azure Function CLI ， 运行以下命令
 
@@ -104,6 +115,11 @@ cp target/release/handler .
 3. 打开 Thunder Client ，输入 , 完成测试
 
 
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/05.png">
+</div>
+
+
 ## **打包成容器**
 
 1. 在 Github Codespace 终端，执行以下命令
@@ -135,13 +151,38 @@ docker push <docker_id>/azurefunctionsimage:v1.0.0
 
 1. 打开你的 Azure Portal portal.azure.com
 
-2. 添加 Reasource , 选择 Function 
+
+2. 添加 Resource , 选择 Function
+
+
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/07.png">
+</div>
 
 3. 在添加 Azure Function 页面，选择用 Container 方式部署，以及使用 Linux Container
 
+
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/08.png">
+</div>
+
+
+
 4. 创建成功后，去 Container Deployment ， 设置好你对应的 Docker Hub 和 container 标识，按保存
 
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/09.png">
+</div>
+
+
+
 5. 稍等片刻完成，在 Codespace 上打开 Thunder Client 验证
+
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/10.png">
+</div>
+
+
 
 
 
