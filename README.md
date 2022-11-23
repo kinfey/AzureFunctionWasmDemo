@@ -27,12 +27,21 @@ Hey Guy ，这是一个 WasmEdge 在 Azure Function 上运行的 Hello World 。
 <img src="./imgs/01/02.png">
 </div>
 
-2. 直接选择改 Repo 上的 Code ，进入该项目的环境 Codespace 环境
-
+2. 直接选择改 Repo 上的 Code ，进入该项目的环境 Codespace 环境, 
 
 <div style="text-align:left; width:100%">
 <img src="./imgs/01/03.png">
 </div>
+
+建议小伙伴把 Codespace 设置为 4 核心 GPU ， 8GB 内存 ， 32 GB 存储
+
+
+<div style="text-align:left; width:100%">
+<img src="./imgs/01/11.png">
+</div>
+
+
+
 
 3. 安装好相关插件 ThunderClient 以及 Azure CLI 
 
@@ -181,6 +190,13 @@ docker push <docker_id>/azurefunctionsimage:v1.0.0
 <div style="text-align:left; width:100%">
 <img src="./imgs/01/10.png">
 </div>
+
+
+## **谢谢**
+
+
+
+
 
 
 
