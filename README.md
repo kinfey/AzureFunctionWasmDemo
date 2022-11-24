@@ -81,7 +81,6 @@ sudo apt-get install azure-functions-core-tools-4
 
 ```
 
-注意： 因为该项目依赖 WasmEdge SDK 0.7.0 版本，而 WasmEdge SDK 还没有在 Crates 上发布，所以项目在 GitHub 上 fork 了 WasmEdge SDK 的源码(https://github.com/WasmEdge/WasmEdge/)， 进行本地项目的依赖和编译
 
 6. Rust 环境配置
 
