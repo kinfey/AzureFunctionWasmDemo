@@ -1219,7 +1219,9 @@ dependencies = [
 
 [[package]]
 name = "wasmedge-macro"
-version = "0.2.1"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f159a9a7d3d2301de2fc9cb88ad3459af9e95cbd5a0f57437efccc2b572a027"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1229,6 +1231,8 @@ dependencies = [
 [[package]]
 name = "wasmedge-sdk"
 version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "771740ee0f5840d48781dea94ad602900e4cbb49ccd13674e50fdb4933321414"
 dependencies = [
  "anyhow",
  "num-derive",
@@ -1243,6 +1247,8 @@ dependencies = [
 [[package]]
 name = "wasmedge-sys"
 version = "0.12.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2e63642eaa0c5e59f135474bd37afca902793b11c98ad5018ee8988ec7b1ec4b"
 dependencies = [
  "bindgen",
  "cmake",
@@ -1255,11 +1261,14 @@ dependencies = [
  "wasmedge-macro",
  "wasmedge-types",
  "wasmtime-fiber",
+ "wat",
 ]
 
 [[package]]
 name = "wasmedge-types"
 version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3323fe75a4e65476b33a041092aac22a1065a7ba0bfecbedc8135e8efb6c522d"
 dependencies = [
  "thiserror",
  "wat",
