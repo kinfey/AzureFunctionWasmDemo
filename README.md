@@ -81,7 +81,6 @@ sudo apt-get install azure-functions-core-tools-4
 
 ```
 
-
 6. Rust 环境配置
 
 ```bash
